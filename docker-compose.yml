@@ -40,7 +40,7 @@ services:
         ipv4_address: 10.5.0.3
 
   metaplex:
-    image: arlaxy-testing:latest
+    image: virusz4274/arlaxy-testing:v1
     container_name: arlaxy
     restart: always
     networks:

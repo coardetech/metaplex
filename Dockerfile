@@ -28,7 +28,7 @@ RUN yarn install --frozen-lockfile
 RUN yarn bootstrap
 
 # HERE ADD YOUR STORE WALLET ADDRESS
-ENV REACT_APP_STORE_OWNER_ADDRESS_ADDRESS=""
+ENV REACT_APP_STORE_OWNER_ADDRESS_ADDRESS="g5sdMnYVq8Z5cDDZseTvxLY3QGXdt2NAob5suVyjbtd"
 
 # Generate the build of the application
 RUN yarn build
